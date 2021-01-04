@@ -1,0 +1,18 @@
+* {
+    /* m0+p0+ff */
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+}
+
+/* 導覽列 */
+nav {
+    /* dg */
+    display: grid;
+    /* gtc */
+    grid-template-columns: 20% 70% 10%;
+    /* bg */
+    background: #eee;
+    /* bs */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
