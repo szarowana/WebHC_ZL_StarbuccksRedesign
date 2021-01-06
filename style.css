@@ -52,7 +52,7 @@ nav {
 /* 元素 1 裡面 第一層 的 元素 2 */
 #products > div {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
 }
 
 #products .pic img {
@@ -72,14 +72,13 @@ nav {
 #products .text p {
     width: 300px;
     line-height: 2;
-    padding: 10px 0;
+    padding: 10px 0 20px;
 }
-
 
 #products > div:nth-child(2) {
     /* 格線樣板區域：利用格線區域名稱設定順序 */
     grid-template-areas: "pic text";
-    /* grid-template-columns: 60% 40%; */
+    /* grid-template-columns: 60% 40%;*/
 }
 
 
@@ -90,4 +89,19 @@ nav {
 #products > div:nth-child(2) .pic {
     /* 格線區域：此區域名稱 */
     grid-area: pic;
+}
+
+/* 按鈕樣式 */
+.button {
+    padding: 8px 50px;
+    /* 邊框：粗細 樣式 顏色 */
+    border: 1px solid #226641;
+    text-decoration: none;
+    color: #226641;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background: #226641;
+    color: #fff;
 }
