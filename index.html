@@ -1,35 +1,74 @@
 <!DOCTYPE html>
-<html lang="ZH">
-
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>星巴克</title>
-    <link rel="stylesheet" href="style.css"
+    <title>星巴克 | Starbucks</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-
-    <!--導覽列-->
-    <!--nav 導覽列元素-->
-    <!--有語意的元素-->
+    <!-- 導覽列 -->
+    <!-- nav 導覽列元素 -->
+    <!-- 有語意的元素 -->
     <nav>
-        <div id="logo"><img src="./img/logo_starbucks.png" alt="星巴克 LOGO"></div>
+        <div id="logo">
+            <a href="#"><img src="./img/logo.png" alt="星巴克 LOGO"></a>
+        </div>
         <div id="link">
-            <a href=""> 商品類型</a>
-            <a href=""> 門市資訊</a>
-            <a href=""> 其他服務</a>
-
+            <a href="">商品類型</a>
+            <a href="">門市資訊</a>
+            <a href="">其他服務</a>
         </div>
         <div id="social">
-            <img src="img/icon-FB.png" alt="facebook 臉書"> <img src="./img/icon-IG.png" alt="insgram IG" </div>
+            <a href="" target="_blank"><img src="./img/icon-fb.png" alt="facebook 臉書"></a>
+            <a href="" target="_blank"><img src="./img/icon-ig.png" alt="instagram ig"></a>
+        </div>
     </nav>
-    <!--最新商品-->
-    <!--商品類型-->
-    <!--門市資訊-->
-    <!--其它服務-->
-    <!--頁尾-->
+
+    <!-- 最新商品 -->
+    <div id="banner">
+        施工中...
+    </div>
+
+    <!-- 商品類型 -->
+    <!-- section 文章元素 -->
+    <section id="products">
+        <!-- (div>.text+.pic)*3 -->
+        <div>
+            <div class="text">
+                <h1>飲料</h1>
+                <p>令人驚豔的精選咖啡風味與各式手調飲品，期待你親自來探索與享受。</p>
+                <a href="">MORE</a>
+            </div>
+            <div class="pic">
+                <img src="./img/product1.jpg" alt="飲料">
+            </div>
+        </div>
+        <div>
+            <div class="text">
+                <h1>糕點</h1>
+                <p>高品質食材製成豐富的蛋糕和三明治，每一口都能品嘗到食物的原味，回味無窮。</p>
+                <a href="">MORE</a>
+            </div>
+            <div class="pic">
+                <img src="./img/product2.jpg" alt="糕點">
+            </div>
+        </div>
+        <div>
+            <div class="text">
+                <h1>周邊</h1>
+                <p>挑選最適合你的咖啡用品與設備，與好友家人一起共創居家迷人咖啡時光。</p>
+                <a href="">MORE</a>
+            </div>
+            <div class="pic">
+                <img src="./img/product3.jpg" alt="周邊">
+            </div>
+        </div>
+    </section>
+    <!-- 門市資訊 -->
+
+    <!-- 其他服務 -->
+
+    <!-- 頁尾 -->
 
 </body>
-
 </html>
